@@ -1,0 +1,16 @@
+test_upper_case_names (__main__.TestExercice) ... ERROR
+
+======================================================================
+ERROR: test_upper_case_names (__main__.TestExercice)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "test_exercice.py", line 17, in test_upper_case_names
+    output = list(map(exercice.majuscule, self.words))
+  File "/home/runner/work/chapitre-02-Jpolytech/chapitre-02-Jpolytech/exercice.py", line 5, in majuscule
+    x = input("entrer une lettre en minuscule :")
+EOFError: EOF when reading a line
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (errors=1)
